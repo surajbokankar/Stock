@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dim_30dp"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dim_18sp"
+            android:text="@string/title_bottom_sheet"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="@dimen/dim_10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/low"
+            android:text="@string/low"
+            android:padding="@dimen/dim_6dp"
+            android:layout_marginLeft="@dimen/dim_16dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_16sp"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/high"
+            android:text="@string/High"
+            android:layout_marginLeft="@dimen/dim_16dp"
+            android:padding="@dimen/dim_6dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_16sp"
+            />
+
+    </LinearLayout>
+</layout>

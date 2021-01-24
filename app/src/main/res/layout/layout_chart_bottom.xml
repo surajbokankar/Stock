@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim_16dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/symobol_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/High"
+            android:textSize="@dimen/dim_20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currency"
+            android:textSize="@dimen/dim_18sp"
+            android:textStyle="normal"
+            android:id="@+id/cur_txt"
+            android:layout_toLeftOf="@id/currency"
+            android:textColor="@color/black"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currency"
+            android:textSize="@dimen/dim_16sp"
+            android:textStyle="bold"
+            android:id="@+id/currency"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/dim_2dp"
+            />
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/High"
+        android:textSize="@dimen/dim_20sp"
+        android:textStyle="normal"
+        android:id="@+id/open_txt"
+        android:paddingLeft="@dimen/dim_16dp"
+        android:paddingTop="@dimen/dim_4dp"
+        android:paddingBottom="@dimen/dim_4dp"
+        android:textColor="@color/purple_500"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/High"
+        android:textSize="@dimen/dim_20sp"
+        android:textStyle="normal"
+        android:id="@+id/high_txt"
+        android:paddingLeft="@dimen/dim_16dp"
+        android:paddingTop="@dimen/dim_4dp"
+        android:paddingBottom="@dimen/dim_4dp"
+        android:textColor="@color/black"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/High"
+        android:textSize="@dimen/dim_20sp"
+        android:textStyle="normal"
+        android:id="@+id/low_txt"
+        android:paddingLeft="@dimen/dim_16dp"
+        android:paddingTop="@dimen/dim_4dp"
+        android:paddingBottom="@dimen/dim_4dp"
+        android:textColor="@color/black"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/High"
+        android:textSize="@dimen/dim_20sp"
+        android:textStyle="normal"
+        android:id="@+id/close_txt"
+        android:paddingLeft="@dimen/dim_16dp"
+        android:paddingTop="@dimen/dim_4dp"
+        android:paddingBottom="@dimen/dim_4dp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim_16dp"
+        android:background="@drawable/ripple_drawable"
+        android:layout_marginRight="@dimen/dim_12dp"
+        android:layout_marginLeft="@dimen/dim_12dp"
+        android:layout_marginBottom="@dimen/dim_4dp"
+        android:layout_marginTop="@dimen/dim_4dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_identifier"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_16sp"
+            android:textStyle="bold"
+            android:text="@string/title_user"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_gain"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_16sp"
+            android:textStyle="normal"
+            android:layout_alignParentRight="true"
+            android:text="@string/title_user"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_symbol"
+            android:textColor="@color/color_gray"
+            android:textSize="@dimen/dim_16sp"
+            android:textStyle="normal"
+            android:layout_below="@id/stock_identifier"
+            android:text="@string/title_user"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_perc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_16sp"
+            android:textStyle="normal"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/stock_gain"
+            android:text="@string/title_user"
+            />
+
+    </RelativeLayout>
+</layout>

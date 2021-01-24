@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">StockApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_stock">Stock</string>
+    <string name="title_watch">WatchList</string>
+    <string name="title_search">Search</string>
+    <string name="title_user">User</string>
+    <string name="tab_one">NIFTY 50</string>
+    <string name="tab_two">IT</string>
+    <string name="tab_three">BANK</string>
+    <string name="title_bottom_sheet">Percentage Increase in Current Session</string>
+    <string name="low">Low Returns</string>
+    <string name="High">High Returns</string>
+    <string name="stock_detail">Stock Journey</string>
+    <string name="currency">Currency</string>
+</resources>

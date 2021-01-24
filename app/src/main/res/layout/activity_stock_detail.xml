@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/dim_16dp"
+    android:layout_marginRight="@dimen/dim_16dp"
+    android:paddingTop="@dimen/dim_20dp"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stock_identifier"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_22sp"
+        android:textStyle="bold"
+        android:text="@string/title_user"
+        android:padding="@dimen/dim_6dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stock_gain"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_20sp"
+        android:textStyle="normal"
+        android:layout_below="@id/stock_identifier"
+        android:text="@string/title_user"
+        android:padding="@dimen/dim_6dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stock_symbol"
+        android:textColor="@color/color_gray"
+        android:textSize="@dimen/dim_18sp"
+        android:textStyle="normal"
+        android:layout_below="@id/stock_gain"
+        android:text="@string/title_user"
+        android:padding="@dimen/dim_6dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stock_perc"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_18sp"
+        android:textStyle="normal"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/stock_gain"
+        android:text="@string/title_user"
+        android:padding="@dimen/dim_6dp"
+        />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_400dp"
+        android:layout_below="@id/stock_perc"
+        android:layout_marginTop="@dimen/dim_16dp"
+        android:id="@+id/line_chart"
+        />
+
+
+</RelativeLayout>
